@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header class="header__signUp">
+            <span class="material-symbols-outlined" onclick="history.back()">
+                arrow_back
+            </span>
+            <h2>Sign Up</h2>
+        </header>
+        <section class="section__signUp">
+            <form class="form__signUp">
+                <div class="form__login-user">
+                    <input type="text" id="user" class="form__input" required>
+                    <label for="user" class="form__label">User</label>
+                </div>
+    
+                <div class="form__login-email">
+                    <input type="email" id="email" class="form__input" required>
+                    <label for="email" class="form__label">Email</label>
+                </div>
+    
+                <div class="form__login-pass">
+                    <input type="password" id="pass" class="form__input" required>
+                    <label for="pass" class="form__label">Password</label>
+                </div>
+    
+                <div class="form__login-pass__confirm">
+                    <input type="password" id="pass_confirm" class="form__input" required>
+                    <label for="pass_confirm" class="form__label">Confirm password</label>
+                </div>
+    
+                <button type="submit" class="btn__login">Sign Up</button>
+            </form>
+            <footer><p>Already have any account? <a href="/login.html">Login</a></p></footer>
+        </section>
+    </main>
+    
+    <script src="validacion.js"></script>
+</body>
+</html>

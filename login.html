@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header class="header__login">
+            <div class="logo"><div class="logo__inter"></div></div>
+        </header>
+        <section class="section__login">
+            <form class="form__login" id="form">
+                <h2>Login</h2>
+                <div class="form__login-user">
+                    <input type="text" id="user" class="form__input" >
+                    <label for="user" class="form__label">User</label>
+                    <p id="warning__user" class="warning__user_active">This user is invalid</p>
+                </div>
+                <div class="form__login-pass">
+                    <input type="password" id="pass" class="form__input" >
+                    <label for="pass" class="form__label">Password</label>
+                    <p id="warning__pass">This password is not valid</p>
+                </div>
+                <button type="submit" class="btn__login" onclick="">Login</button>
+            </form>
+            <footer><p>Don't have any account? <a href="/signUp.html">Sign Up</a></p></footer>
+        </section>
+    </main>
+
+    <script src="validacion.js"></script>
+</body>
+</html>
